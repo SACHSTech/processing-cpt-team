@@ -132,7 +132,7 @@ public class Sketch extends PApplet {
 
     if ((mouseX >= 25 && mouseX <= 68) && (mouseY >= 360 && mouseY <= 380)) { {
       if (mousePressed == true) {
-        screen = 3; // Changes the screen to slide 2
+        screen = 3; // Changes the screen to slide 3
       }
     }
   }
@@ -140,7 +140,7 @@ public class Sketch extends PApplet {
     if ((mouseX >= 530 && mouseX <= 569) && (mouseY >= 360 && mouseY <= 380)) { {
 
       if (mousePressed == true) {
-        screen = 5; // Changes the screen to slide 4
+        screen = 5; // Changes the screen to slide 5
       }
     }
   }
@@ -156,7 +156,7 @@ public class Sketch extends PApplet {
 
     if ((mouseX >= 25 && mouseX <= 68) && (mouseY >= 435 && mouseY <= 455)) {
       if (mousePressed == true) {
-        screen = 4; // Changes the screen to slide 5
+        screen = 4; // Changes the screen to slide 4
       }
     }
   }
