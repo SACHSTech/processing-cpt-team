@@ -188,11 +188,24 @@ public class Sketch extends PApplet {
   public void slide5() {
     background(200);
     image(imgButtonL, 21, 420);
-    image(imgPicture5, 60, 26);
+    image(imgPicture5, 95, 290);
 
     fill(0, 0, 0); // Black
-    textSize(40);
-    text("desert you", 25, 150);
+    textSize(30);
+    text("Cybersecurity", 30, 70);
+    textSize(17);
+    text("and changes in the last decade:", 220, 70);
+    textSize(20);
+    text("Evolving cyber threats:", 40, 130);
+    text("- Spyware", 40, 160);
+    text("- Malware", 40, 190);
+    text("- DDoS", 40, 220);
+    text("- MitM", 40, 250);
+    text("Evolving cybersecurity solutions:", 280, 130);
+    text("- Encryption", 280, 160);
+    text("- Two-Factor Authentication (2FA)", 280, 190);
+    text("- Backup data", 280, 220);
+    text("- Awareness and training", 280, 250);
 
     if ((mouseX >= 25 && mouseX <= 68) && (mouseY >= 435 && mouseY <= 455)) {
       if (mousePressed == true) {
