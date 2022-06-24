@@ -8,7 +8,8 @@ public class Sketch extends PApplet {
   PImage imgPicture1;
   PImage imgPicture2;
   PImage imgPicture3;
-
+  PImage imgPicture4_1;
+  PImage imgPicture4_2;
   PImage imgPicture5;
   boolean boolMouseClick = false;
 
@@ -41,6 +42,12 @@ public class Sketch extends PApplet {
 
     imgPicture3 = loadImage("https://cdn-images-1.medium.com/max/2600/1*Ggoe0CCCsTvO_Kg6f7dgEA.png");
     imgPicture3.resize(imgPicture3.width/4,imgPicture3.height/4);
+
+    imgPicture4_1 = loadImage("https://www.predictiveanalyticstoday.com/wp-content/uploads/2018/01/What-is-Quantum-Computing-Top-18-Quantum-Computing-Companies.png");
+    imgPicture4_1.resize(imgPicture4_1.width/9,imgPicture4_1.height/9);
+
+    imgPicture4_2 = loadImage("quantum computing explanation.png");
+    imgPicture4_2.resize(480,100);
 
     imgPicture5 = loadImage("https://policyoptions.irpp.org/wp-content/uploads/sites/2/2021/10/Wordpress-Canadas-fledgling-cybersecurity-centre-must-do-more-collaborating-and-educating.jpg");
     imgPicture5.resize(imgPicture5.width/4,imgPicture5.height/4);
@@ -164,11 +171,14 @@ public class Sketch extends PApplet {
     background(200);
     image(imgButtonL, 21, 345);
     image(imgButtonR, 525, 345);
+    image(imgPicture4_1, 90, 270);
+    image(imgPicture4_2, 60, 120);
 
     fill(0, 0, 0); // Black
-    textSize(40);
-    text("and", 25, 150);
-
+    textSize(30);
+    text("Quantum Computing", 42, 75);
+    textSize(17);
+    text("and relevant info:", 235, 250);
     if ((mouseX >= 25 && mouseX <= 68) && (mouseY >= 360 && mouseY <= 380)) { {
       if (mousePressed == true) {
         screen = 3; // Changes the screen to slide 3
